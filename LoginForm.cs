@@ -75,11 +75,9 @@ namespace QuanLyCuaHang
         {
             Application.Exit();
         }
+
         #endregion
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+      
     }
 }
