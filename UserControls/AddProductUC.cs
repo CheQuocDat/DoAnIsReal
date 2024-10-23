@@ -115,7 +115,7 @@ namespace QuanLyCuaHang
 
             return result;
         }
-
+        // Sửa chỗ này
         // Phương thức reset lại các giá trị input
         private void ResetInput()
         {
