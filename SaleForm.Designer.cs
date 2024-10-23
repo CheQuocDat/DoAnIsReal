@@ -100,6 +100,7 @@
             this.btnSearchSale.Size = new System.Drawing.Size(35, 34);
             this.btnSearchSale.TabIndex = 27;
             this.btnSearchSale.UseVisualStyleBackColor = true;
+            this.btnSearchSale.Click += new System.EventHandler(this.btnSearchSale_Click_1);
             // 
             // btnDeleteSale
             // 
@@ -108,6 +109,7 @@
             this.btnDeleteSale.Size = new System.Drawing.Size(39, 34);
             this.btnDeleteSale.TabIndex = 26;
             this.btnDeleteSale.UseVisualStyleBackColor = true;
+            this.btnDeleteSale.Click += new System.EventHandler(this.btnDeleteSale_Click_1);
             // 
             // dateTimePicker2
             // 
@@ -185,6 +187,7 @@
             this.btnAddSale.Size = new System.Drawing.Size(39, 36);
             this.btnAddSale.TabIndex = 16;
             this.btnAddSale.UseVisualStyleBackColor = true;
+            this.btnAddSale.Click += new System.EventHandler(this.btnAddSale_Click_1);
             // 
             // SaleForm
             // 
@@ -206,7 +209,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAddSale);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SaleForm";
             this.Text = "&&&&&";
             this.Load += new System.EventHandler(this.SaleForm_Load);
